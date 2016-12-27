@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+}
+
+//Grid Properties
+.row
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*='col-']
+{
+    float: left;
+    padding-right: 20px;
+}
+
+[class*='col-']:last-of-type
+{
+    padding-right: 0;
+}
+
+//Column Properties
+.offset-1 {margin-left: 8.33%;}
+.col-1 {width: 8.33%;}
+
+.offset-2 {margin-left: 16.66%;}
+.col-2 {width: 16.66%;}
+
+.offset-3 {margin-left: 24.99%;}
+.col-3 {width: 24.99%;}
+
+.offset-4 {margin-left: 33.32%;}
+.col-4 {width: 33.32%;}
+
+.offset-5 {margin-left: 41.65%;}
+col-5 {width: 41.65%;}
+
+.col-6 {width: 49.98%;}
+
+.col-7 {width: 58.31%;}
+
+.col-8 {width: 66.64%;}
+
+.col-9 {width: 74.97%;}
+
+.col-10 {width: 83.33%;}
+
+.col-11 {width: 91.63;}
+
+.col-12 {width: 100%;}
