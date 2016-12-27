@@ -100,4 +100,8 @@ col-5 {
     .nav li .current:hover {
       color: #FFFFFF; }
 
+.heroImage {
+  position: relative;
+  width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
