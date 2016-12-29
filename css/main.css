@@ -181,6 +181,12 @@ p {
 .bottom {
   background-color: #000000;
   height: 250px;
-  margin-top: 3%; }
+  margin-top: 20%; }
+
+.social {
+  margin-top: 2%; }
+  .social img {
+    width: 22%;
+    padding-left: 10%; }
 
 /*# sourceMappingURL=main.css.map */
