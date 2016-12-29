@@ -278,3 +278,37 @@ p
         }
     }
 }
+
+.sitemap
+{
+    font-size: 20px;
+    margin-top: 2%;
+    
+    li
+    {
+        display: inline;
+        padding-left: 3%;
+    }
+    
+    a
+    {
+        color: $white;
+        font-weight: 100;
+    }
+    
+    a:hover
+    {
+        color: $orange;
+    }
+    
+    .current
+    {
+        font-weight: 400;
+        color: $orange;
+    }
+    
+    .current:hover
+    {
+        color: $white;
+    }
+}
