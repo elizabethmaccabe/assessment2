@@ -245,4 +245,9 @@ p
         width: 22%;
         padding-left: 10%;
     }
+    
+    img:hover
+    {
+        filter: grayscale(100%);
+    }
 }

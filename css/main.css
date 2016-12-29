@@ -188,5 +188,7 @@ p {
   .social img {
     width: 22%;
     padding-left: 10%; }
+  .social img:hover {
+    filter: grayscale(100%); }
 
 /*# sourceMappingURL=main.css.map */
