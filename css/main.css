@@ -220,4 +220,13 @@ p {
   .sitemap .current:hover {
     color: #FFFFFF; }
 
+.details {
+  margin-top: 0; }
+  .details a:hover {
+    color: #FFFFFF; }
+  .details p {
+    float: left;
+    font-size: 20px;
+    padding-left: 5%; }
+
 /*# sourceMappingURL=main.css.map */
