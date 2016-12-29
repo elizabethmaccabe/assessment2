@@ -206,3 +206,19 @@ p
     margin-top: 1%;
     width: 35%;
 }
+
+.profile
+{
+    img
+    {
+        position: relative;
+        margin-top: -7%;
+        box-shadow: 3px 3px 5px $shadow;
+        filter: grayscale(100%);
+    }
+    
+    img:hover
+    {
+        filter: none;
+    }
+}

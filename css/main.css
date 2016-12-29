@@ -167,4 +167,12 @@ p {
   margin-top: 1%;
   width: 35%; }
 
+.profile img {
+  position: relative;
+  margin-top: -7%;
+  box-shadow: 3px 3px 5px #1A1A1A;
+  filter: grayscale(100%); }
+.profile img:hover {
+  filter: none; }
+
 /*# sourceMappingURL=main.css.map */
