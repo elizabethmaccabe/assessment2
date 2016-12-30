@@ -4,6 +4,7 @@
 body {
   font-family: "proxima-nova", serif;
   font-weight: 100;
+  font-size: 20px;
   text-align: justify;
   background-color: #525252;
   margin: 0;
@@ -86,7 +87,6 @@ a {
 p {
   font-family: "proxima nova", sans-serif;
   font-weight: 100;
-  font-size: 20px;
   color: #FFFFFF;
   text-align: justify; }
 
@@ -204,7 +204,6 @@ p {
   40%, 60% {
     transform: translate3d(0, 4px, 0); } }
 .sitemap {
-  font-size: 20px;
   margin-top: 2%; }
   .sitemap li {
     display: inline;
@@ -226,7 +225,6 @@ p {
     color: #FFFFFF; }
   .details p {
     float: left;
-    font-size: 20px;
     padding-left: 5%; }
 
 /*# sourceMappingURL=main.css.map */

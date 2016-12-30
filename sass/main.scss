@@ -16,6 +16,7 @@ body
 {
     font-family: "proxima-nova", serif;
     font-weight: 100;
+    font-size: 20px;
     text-align: justify;
     background-color: $darkGrey;
     margin: 0;
@@ -94,7 +95,6 @@ p
 {
     font-family: "proxima nova", sans-serif;
     font-weight: 100;
-    font-size: 20px;
     color: $white;
     text-align: justify;
 }
@@ -284,7 +284,6 @@ p
 
 .sitemap
 {
-    font-size: 20px;
     margin-top: 2%;
     
     li
@@ -325,7 +324,6 @@ p
     p
     {
         float: left;
-        font-size: 20px;
         padding-left: 5%;
     }
 }
