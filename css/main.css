@@ -178,6 +178,30 @@ p {
 .about {
   margin-top: 3%; }
 
+.tile1, .tile2 {
+  margin-top: 5%;
+  transition: .25s ease; }
+  .tile1:hover, .tile2:hover {
+    margin-top: 3%;
+    transition: .25s ease; }
+
+.tile3, .tile4 {
+  margin-top: 5%;
+  transition: .25s ease; }
+  .tile3:hover, .tile4:hover {
+    margin-top: 3%;
+    transition: .25s ease; }
+
+.project {
+  font-size: 25px;
+  color: #FF7D00;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 3%; }
+
+.project:hover {
+  color: #FFFFFF; }
+
 .bottom {
   background-color: #000000;
   height: 250px;

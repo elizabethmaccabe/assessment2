@@ -229,7 +229,43 @@ p
 }
 
 //Portfolio Page
+.tile1, .tile2
+{
+    margin-top: 5%;
+    transition: .25s ease;
+    
+    &:hover
+    {
+        margin-top: 3%;
+        transition: .25s ease;
+    }
+}
 
+.tile3, .tile4
+{
+    margin-top: 5%;
+    transition: .25s ease;
+    
+    &:hover
+    {
+        margin-top: 3%;
+        transition: .25s ease;
+    }
+}
+
+.project
+{
+    font-size: 25px;
+    color: $orange;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.project:hover
+{
+    color: $white;
+}
 
 //Footer
 .bottom
