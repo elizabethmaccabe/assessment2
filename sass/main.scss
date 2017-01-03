@@ -266,6 +266,61 @@ p
 {
     color: $white;
 }
+
+//Photography Page
+.slider
+{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 16%;
+    overflow: hidden;
+
+    ul
+    {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li
+        {
+            position: relative;
+            display: block;
+            float: left;
+            margin: 0;
+            padding: 0;
+            background: $darkGrey;
+        }
+    }
+    
+    .next {right: 0;}
+
+    .prev, .next
+    {
+        position: absolute;
+        top: 40%;
+        z-index: 999;
+        display: block;
+        padding: 4% 3%;
+        width: auto;
+        height: auto;
+        background: $white;
+        color: $darkGrey;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 30px;
+        opacity: 0.7;
+        cursor: pointer;
+    }
+
+    .prev:hover, .next:hover
+    {
+        opacity: 1;
+        color: $black;
+        transition: all 0.2s ease;
+    }
+}
+
 //Footer
 .bottom
 {
