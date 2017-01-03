@@ -99,6 +99,15 @@ p
     text-align: justify;
 }
 
+h3
+{
+    font-family: "spumante", cursive;
+    font-size: 50px;
+    color: $orange;
+    text-align: center;
+    text-shadow: 2px 3px 1px $shadow;
+}
+
 //Header
 .nav
 {
