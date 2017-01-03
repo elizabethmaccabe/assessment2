@@ -244,6 +244,32 @@ p {
     color: #000000;
     transition: all 0.2s ease; }
 
+.blog1, .blog2 {
+  margin-top: -2%; }
+  .blog1 span, .blog2 span {
+    font-weight: 400; }
+  .blog1 hr, .blog2 hr {
+    border: solid 0.5px #999999; }
+  .blog1 .date1, .blog2 .date1 {
+    margin-top: -5%;
+    font-size: 16px;
+    color: #CCCCCC;
+    width: 13%;
+    float: right;
+    text-align: right;
+    border-bottom: solid 1px #999999; }
+  .blog1 .date2, .blog2 .date2 {
+    margin-top: -5%;
+    font-size: 16px;
+    color: #CCCCCC;
+    width: 13.5%;
+    float: right;
+    text-align: right;
+    border-bottom: solid 1px #999999; }
+
+.blog2 {
+  margin-bottom: 3%; }
+
 .bottom {
   background-color: #000000;
   height: 250px;
