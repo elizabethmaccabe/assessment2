@@ -176,7 +176,8 @@ p {
   filter: none; }
 
 .about {
-  margin-top: 3%; }
+  margin-top: 3%;
+  margin-bottom: 3%; }
 
 .tile1, .tile2 {
   margin-top: 5%;
@@ -197,7 +198,8 @@ p {
   color: #FF7D00;
   font-weight: 400;
   text-align: center;
-  margin-top: 3%; }
+  margin-top: 3%;
+  margin-bottom: 5%; }
 
 .project:hover {
   color: #FFFFFF; }
@@ -205,6 +207,7 @@ p {
 .slider {
   position: relative;
   margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 16%;
   overflow: hidden; }
   .slider ul {
@@ -244,7 +247,7 @@ p {
 .bottom {
   background-color: #000000;
   height: 250px;
-  margin-top: 20%; }
+  clear: both; }
 
 .social {
   margin-top: 2%; }
