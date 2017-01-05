@@ -9,7 +9,7 @@
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
-    <body>
+    <body onLoad="validate(); contactValidate();">
         <div class="wrapper">
             <div class="row">
                 <header class="nav">
@@ -27,14 +27,14 @@
                 <h2 class="title2 col-4 offset-4">Contact Me</h2>
             </div><!-- [end] .row 2 -->
             <div class="row">
-                <form class="contact">
+                <form class="contact" enctype="text/plain" method="post" action="mailto:maccabe.elizabeth@gmail.com">
                     <fieldset class="col-8 offset-2">
                         <p>Fields marked by asterisks (*) are required:</p><br>
-                        <label>NAME *</label><br><input class="col-12" type="text" name="name"><br><br>
-                        <label>EMAIL ADDRESS *</label><br><input class="col-12" type="email" name="email"><br><br>
+                        <label>NAME *</label><br><input class="errName col-12" type="text" name="name" onchange="contactValidate();" required><br><br>
+                        <label>EMAIL ADDRESS *</label><br><input class="errEmail col-12" type="email" name="email" onchange="contactValidate();" required><br><br>
                         <label>PHONE NUMBER</label><br><input class="col-12" type="text" name="phone"><br><br>
                         <label>SUBJECT</label><br><input class="col-12" type="text" name="subject"><br><br>
-                        <label>MESSAGE *</label><br><textarea class="col-12" name="message"></textarea><br><br>
+                        <label>MESSAGE *</label><br><textarea class="errMessage col-12" name="message" onchange="contactValidate();" required></textarea><br><br>
                         <input type="submit" value="SEND" class="col-10 offset-1">
                     </fieldset>
                 </form>

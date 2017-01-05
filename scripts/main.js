@@ -38,3 +38,50 @@ jQuery(document).ready(function ($)
     });
 
 });
+
+function validate()
+{
+    var form = document.querySelector('.contact');
+    form.addEventListener("submit", contactValidate);
+}
+
+function contactValidate()
+{
+    var myForm = document.querySelector('.contact');
+    
+    if (myForm.name.value == "")
+        {
+            formValid = false;
+            
+            document.querySelector('.errName').style.border = "solid 1px red";
+            event.preventDefault();
+        }
+    else
+        {
+            document.querySelector('.errName').style.border = "none";
+        }
+    
+    if (myForm.email.value == "")
+        {
+            formValid = false;
+            
+            document.querySelector('.errEmail').style.border = "solid 1px red";
+            event.preventDefault();
+        }
+    else
+        {
+            document.querySelector('.errEmail').style.border = "none";
+        }
+    
+    if (myForm.message.value == "")
+        {
+            formValid = false;
+            
+            document.querySelector('.errMessage').style.border = "solid 1px red";
+            event.preventDefault();
+        }
+    else
+        {
+            document.querySelector('.errMessage').style.border = "none";
+        }
+}
