@@ -164,7 +164,8 @@ h3 {
 
 .heroImage {
   position: relative;
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 .title1 {
   font-family: "spumante", cursive;
