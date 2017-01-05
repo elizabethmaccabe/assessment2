@@ -459,95 +459,83 @@ form
 .bottom
 {
     background-color: $black;
-    height: 250px;
+    height: 220px;
     clear: both;
-}
 
-.social
-{
-    margin-top: 2%;
-    
-    img
+    .social
     {
-        width: 22%;
-        padding-left: 10%;
-    }
-    
-    img:hover
-    {
-        filter: grayscale(100%) brightness(200%);
-        animation: shake 0.8s;
-        transform: translate3d(0, 0, 0);
-        backface-visibility: hidden;
-        perspective: 1000px;
-    }
-    
-    @keyframes shake 
-    {
-        10%, 90%
+        margin-top: 3%;
+
+        img
         {
-            transform: translate3d(-1px, 0, 0);
-        }
-  
-        20%, 80% 
-        {
-            transform: translate3d(2px, 0, 0);
+            width: 22%;
+            padding-left: 10%;
         }
 
-        30%, 50%, 70% 
+        img:hover
         {
-            transform: translate3d(-4px, 0, 0);
+            filter: grayscale(100%) brightness(200%);
+            animation: shake 0.8s;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px;
         }
 
-        40%, 60% 
+        @keyframes shake 
         {
-            transform: translate3d(4px, 0, 0);
+            10%, 90%
+            {
+                transform: translate3d(-1px, 0, 0);
+            }
+
+            20%, 80% 
+            {
+                transform: translate3d(2px, 0, 0);
+            }
+
+            30%, 50%, 70% 
+            {
+                transform: translate3d(-4px, 0, 0);
+            }
+
+            40%, 60% 
+            {
+                transform: translate3d(4px, 0, 0);
+            }
         }
     }
-}
 
-.sitemap
-{
-    margin-top: 2%;
-    
-    li
+    .sitemap
     {
-        display: inline;
-        padding-left: 3%;
-    }
-    
-    a
-    {
-        color: $white;
-        font-weight: 100;
-    }
-    
-    a:hover
-    {
-        color: $orange;
-    }
-    
-    .current
-    {
-        font-weight: 400;
-        color: $orange;
-    }
-    
-    .current:hover
-    {
-        color: $white;
-    }
-}
+        margin-top: 3%;
 
-.details
-{
-    margin-top: 0;
-    
-    a:hover {color: $white;}
-    
-    p
-    {
-        float: left;
-        padding-left: 5%;
+        li
+        {
+            display: inline;
+            padding-left: 3%;
+        }
+
+        a
+        {
+            color: $white;
+            font-weight: 100;
+        }
+
+        a:hover
+        {
+            color: $orange;
+        }
+
+        .current
+        {
+            font-weight: 400;
+            color: $orange;
+        }
+
+        .current:hover
+        {
+            color: $white;
+        }
     }
+
 }

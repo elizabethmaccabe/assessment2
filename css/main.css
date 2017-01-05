@@ -341,20 +341,19 @@ form fieldset {
 
 .bottom {
   background-color: #000000;
-  height: 250px;
+  height: 220px;
   clear: both; }
-
-.social {
-  margin-top: 2%; }
-  .social img {
-    width: 22%;
-    padding-left: 10%; }
-  .social img:hover {
-    filter: grayscale(100%) brightness(200%);
-    animation: shake 0.8s;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px; }
+  .bottom .social {
+    margin-top: 3%; }
+    .bottom .social img {
+      width: 22%;
+      padding-left: 10%; }
+    .bottom .social img:hover {
+      filter: grayscale(100%) brightness(200%);
+      animation: shake 0.8s;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px; }
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0); }
@@ -364,28 +363,20 @@ form fieldset {
     transform: translate3d(-4px, 0, 0); }
   40%, 60% {
     transform: translate3d(4px, 0, 0); } }
-.sitemap {
-  margin-top: 2%; }
-  .sitemap li {
-    display: inline;
-    padding-left: 3%; }
-  .sitemap a {
-    color: #FFFFFF;
-    font-weight: 100; }
-  .sitemap a:hover {
-    color: #FF7D00; }
-  .sitemap .current {
-    font-weight: 400;
-    color: #FF7D00; }
-  .sitemap .current:hover {
-    color: #FFFFFF; }
-
-.details {
-  margin-top: 0; }
-  .details a:hover {
-    color: #FFFFFF; }
-  .details p {
-    float: left;
-    padding-left: 5%; }
+  .bottom .sitemap {
+    margin-top: 3%; }
+    .bottom .sitemap li {
+      display: inline;
+      padding-left: 3%; }
+    .bottom .sitemap a {
+      color: #FFFFFF;
+      font-weight: 100; }
+    .bottom .sitemap a:hover {
+      color: #FF7D00; }
+    .bottom .sitemap .current {
+      font-weight: 400;
+      color: #FF7D00; }
+    .bottom .sitemap .current:hover {
+      color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
