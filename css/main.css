@@ -165,14 +165,13 @@ h3 {
   position: relative;
   width: 100%; }
 
-.title {
+.title1 {
   font-family: "spumante", cursive;
   font-size: 100px;
   text-align: center;
   color: #FF7D00;
   text-shadow: 3px 5px 0px #1A1A1A;
-  margin-top: 2%;
-  width: 35%; }
+  margin-top: 2%; }
 
 .profile img {
   position: relative;
