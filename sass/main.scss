@@ -367,6 +367,95 @@ h3
 
 .blog2 {margin-bottom: 3%;}
 
+//Contact Page
+.title2
+{
+    font-family: "spumante", cursive;
+    font-size: 100px;
+    text-align: center;
+    color: $orange;
+    text-shadow: 3px 5px 0px $shadow;
+    margin-top: 1%;
+}
+
+form
+{
+    p
+    {
+        color: $orange;
+        font-weight: 400;
+        font-size: 18px;
+        float: right;
+    }
+    
+    label
+    {
+        font-family: "proxima nova", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        color: $white;
+        text-align: justify;
+    }
+    
+    fieldset
+    {
+        margin-top: -7.5%;
+        margin-bottom: 3%;
+        border: none;
+        
+        input
+        {
+            background-color: $lightGrey;
+            border: none;
+            height: 40px;
+            font-family: "proxima nova", sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+            color: $black;
+            padding-left: 1%;
+            margin-top: 0.5%;
+            margin-bottom: 2%;
+        }
+        
+        textarea
+        {
+            background-color: $lightGrey;
+            border: none;
+            height: 200px;
+            font-family: "proxima nova", sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+            resize: vertical;
+            color: $black;
+            padding-top: 1%;
+            padding-left: 1%;
+            margin-top: 0.5%;
+            margin-bottom: 2%;
+        }
+        
+        input[type=submit]
+        {
+            background-color: $orange;
+            border: none;
+            height: 60px;
+            font-family: "proxima nova", sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            color: $white;
+            padding-top: 0.5%;
+            margin-top: 0.5%;
+            margin-bottom: 2%;
+            cursor: pointer;
+            
+            &:hover
+            {
+                color: $orange;
+                background-color: $white;
+            }
+        }
+    }
+}
+
 //Footer
 .bottom
 {

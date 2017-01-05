@@ -277,6 +277,69 @@ h3 {
 .blog2 {
   margin-bottom: 3%; }
 
+.title2 {
+  font-family: "spumante", cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #FF7D00;
+  text-shadow: 3px 5px 0px #1A1A1A;
+  margin-top: 1%; }
+
+form p {
+  color: #FF7D00;
+  font-weight: 400;
+  font-size: 18px;
+  float: right; }
+form label {
+  font-family: "proxima nova", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: justify; }
+form fieldset {
+  margin-top: -7.5%;
+  margin-bottom: 3%;
+  border: none; }
+  form fieldset input {
+    background-color: #CCCCCC;
+    border: none;
+    height: 40px;
+    font-family: "proxima nova", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 2%; }
+  form fieldset textarea {
+    background-color: #CCCCCC;
+    border: none;
+    height: 200px;
+    font-family: "proxima nova", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    resize: vertical;
+    color: #000000;
+    padding-top: 1%;
+    padding-left: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 2%; }
+  form fieldset input[type=submit] {
+    background-color: #FF7D00;
+    border: none;
+    height: 60px;
+    font-family: "proxima nova", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-top: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    cursor: pointer; }
+    form fieldset input[type=submit]:hover {
+      color: #FF7D00;
+      background-color: #FFFFFF; }
+
 .bottom {
   background-color: #000000;
   height: 250px;
