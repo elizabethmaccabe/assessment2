@@ -82,7 +82,7 @@ col-5 {
 a {
   text-decoration: none;
   color: #FF7D00; }
-  a a:hover {
+  a:hover {
     color: #FFFFFF; }
 
 p {
@@ -113,34 +113,32 @@ h3 {
     .nav li a {
       text-decoration: none;
       color: #FFFFFF; }
-    .nav li a:hover {
-      color: #FF7D00; }
+      .nav li a:hover {
+        color: #FF7D00; }
     .nav li .current {
       font-weight: 400;
       color: #FF7D00; }
-    .nav li .current:hover {
-      color: #FFFFFF; }
+      .nav li .current:hover {
+        color: #FFFFFF; }
 
 .underline {
   display: inline-block;
   position: relative;
   padding-bottom: 3px; }
-
-.underline:after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  height: 2px;
-  width: 0;
-  background: transparent;
-  transition: width .3s ease, background-color .3s ease, left .3s ease; }
-
-.underline:hover:after {
-  width: 100%;
-  left: 0;
-  background: #525252; }
+  .underline .underline:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease, left .3s ease; }
+    .underline .underline:after:hover:after {
+      width: 100%;
+      left: 0;
+      background: #525252; }
 
 .name {
   font-family: "spumante",sans-serif;
@@ -175,13 +173,13 @@ h3 {
   text-shadow: 3px 5px 0px #1A1A1A;
   margin-top: 2%; }
 
-.profile img {
+.profile {
   position: relative;
   margin-top: -7%;
   box-shadow: 3px 3px 5px #1A1A1A;
   filter: grayscale(100%); }
-.profile img:hover {
-  filter: none; }
+  .profile:hover {
+    filter: none; }
 
 .about {
   margin-top: 3%;
@@ -208,9 +206,8 @@ h3 {
   text-align: center;
   margin-top: 3%;
   margin-bottom: 5%; }
-
-.project:hover {
-  color: #FFFFFF; }
+  .project:hover {
+    color: #FFFFFF; }
 
 .slider {
   position: relative;
@@ -252,10 +249,10 @@ h3 {
     font-size: 30px;
     opacity: 0.7;
     cursor: pointer; }
-  .slider .prev:hover, .slider .next:hover {
-    opacity: 1;
-    color: #000000;
-    transition: all 0.2s ease; }
+    .slider .prev:hover, .slider .prev:hover, .slider .next:hover, .slider .next:hover {
+      opacity: 1;
+      color: #000000;
+      transition: all 0.2s ease; }
 
 .blog1, .blog2 {
   margin-top: -2%; }
@@ -355,12 +352,12 @@ form fieldset {
     .bottom .social img {
       width: 22%;
       padding-left: 10%; }
-    .bottom .social img:hover {
-      filter: grayscale(100%) brightness(200%);
-      animation: shake 0.8s;
-      transform: translate3d(0, 0, 0);
-      backface-visibility: hidden;
-      perspective: 1000px; }
+      .bottom .social img:hover {
+        filter: grayscale(100%) brightness(200%);
+        animation: shake 0.8s;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px; }
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0); }
@@ -378,12 +375,12 @@ form fieldset {
     .bottom .sitemap a {
       color: #FFFFFF;
       font-weight: 100; }
-    .bottom .sitemap a:hover {
-      color: #FF7D00; }
+      .bottom .sitemap a:hover {
+        color: #FF7D00; }
     .bottom .sitemap .current {
       font-weight: 400;
       color: #FF7D00; }
-    .bottom .sitemap .current:hover {
-      color: #FFFFFF; }
+      .bottom .sitemap .current:hover {
+        color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
