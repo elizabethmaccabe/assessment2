@@ -149,7 +149,7 @@ h3
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-
+}
 
     .underline:after
     {
@@ -162,15 +162,15 @@ h3
         width: 0;
         background: transparent;
         transition: width .3s ease, background-color .3s ease, left .3s ease;
-    
-        &:hover:after
-        {
-            width: 100%;
-            left: 0;
-            background: $darkGrey;
-        }
     }
-}
+    
+    .underline:hover:after
+    {
+        width: 100%;
+        left: 0;
+        background: $darkGrey;
+    }
+
 
 //Home Page
 .name
