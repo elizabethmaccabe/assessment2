@@ -3,6 +3,9 @@
     <head>
         <title>Elizabeth MacCabe | Web Designer</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="scripts/main.js"></script>
         <script src="https://use.typekit.net/zgr4shl.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -21,11 +24,31 @@
                     </ul>
                 </header><!-- [end] .nav -->
             </div><!-- [end] .row 1 -->
+            <div class="row">  
+                <header class="hamburgerMenu">
+                    <p>HOME</p>
+                    <button class="hamburger">&#9776;</button>
+                    <button class="cross">&#735;</button>
+                </header>
+                <div class="menu">
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>   
+                        <a href="about.html"><li>ABOUT</li></a>
+                        <a href="portfolio.html"><li>PORTFOLIO</li></a>
+                        <a href="photography.html"><li>PHOTOGRAPHY</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contact.html"><li>CONTACT</li></a>
+                    </ul>
+                </div>
+            </div><!-- [end] .row 2 -->
             <div class="row">
                 <img class="heroImage col-12" src="img/HeroImage.jpg" alt="Hero image">
                 <h1 class="name col-10 offset-1">Elizabeth MacCabe</h1>
                 <p class="tagline col-2 offset-5">WEB DESIGNER</p>
-            </div><!-- [end] .row 2 -->
+            </div><!-- [end] .row 3 -->
+            <div class="row">
+                <img class="mobileHeroImage col-12" src="img/mobileHeroImg.png" alt="Hero image">
+            </div>
         </div><!-- [end] .wrapper -->
     </body>
 </html>
