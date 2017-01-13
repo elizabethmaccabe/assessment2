@@ -3,6 +3,7 @@
     <head>
         <title>Elizabeth MacCabe | Web Designer</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="scripts/main.js"></script>
         <script src="https://use.typekit.net/zgr4shl.js"></script>
@@ -23,18 +24,41 @@
                     </ul>
                 </header><!-- [end] .nav -->
             </div><!-- [end] .row 1 -->
-            <div class="row">
-                <div class="slider">
-                    <a class="next">&rarr;</a>
-                    <a class="prev">&larr;</a>
-                    <ul class="col-10">
-                        <li><img src="img/Slide1.jpg"></li>
-                        <li><img src="img/Slide2.jpg"></li>
-                        <li><img src="img/Slide3.jpg"></li>
-                        <li><img src="img/Slide4.jpg"></li>
-                    </ul>  
+            <div class="row">  
+                <header class="hamburgerMenu">
+                    <p>PHOTOGRAPHY</p>
+                    <button class="hamburger">&#9776;</button>
+                    <button class="cross">&#735;</button>
+                </header>
+                <div class="menu">
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>   
+                        <a href="about.html"><li>ABOUT</li></a>
+                        <a href="portfolio.html"><li>PORTFOLIO</li></a>
+                        <a href="photography.html"><li>PHOTOGRAPHY</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contact.html"><li>CONTACT</li></a>
+                    </ul>
                 </div>
             </div><!-- [end] .row 2 -->
+            <div class="row">
+                <div class="slider col-10">
+                    <a class="next">&rarr;</a>
+                    <a class="prev">&larr;</a>
+                    <ul class="col-12">
+                        <li><img class="col-12" src="img/Slide1.jpg"></li>
+                        <li><img class="col-12" src="img/Slide2.jpg"></li>
+                        <li><img class="col-12" src="img/Slide3.jpg"></li>
+                        <li><img class="col-12" src="img/Slide4.jpg"></li>
+                    </ul>
+                </div>
+                <div class="gallery">
+                    <img class="galImg col-6 offset-1" src="img/Slide1.jpg">
+                    <img class="galImg col-6 offset-1" src="img/Slide2.jpg">
+                    <img class="galImg col-6 offset-1" src="img/Slide3.jpg">
+                    <img class="galImg col-6 offset-1" src="img/Slide4.jpg">
+                </div>
+            </div><!-- [end] .row 3 -->
             <footer class="bottom">
                 <div class="row">
                     <div class="social col-4 offset-4">
@@ -43,7 +67,7 @@
                         <a href="https://www.linkedin.com/in/elizabethmaccabe" target="_blank"><img class="li" src="img/LinkedIn.png"></a>
                         <a href="https://uk.pinterest.com/eamaccabe/" target="_blank"><img class="pi" src="img/Pinterest.png"></a>
                     </div>
-                </div><!-- [end] .row 3 -->
+                </div><!-- [end] .row 4 -->
                 <div class="row">
                     <ul class="sitemap col-6 offset-3">
                         <li><a href="index.html">HOME</a></li>
@@ -53,7 +77,7 @@
                         <li><a href="blog.html">BLOG</a></li>
                         <li><a href="contact.html">CONTACT</a></li>
                     </ul>
-                </div><!-- [end] .row 4 -->
+                </div><!-- [end] .row 5 -->
             </footer><!-- [end] footer -->
         </div><!-- [end] .wrapper -->
     </body>
