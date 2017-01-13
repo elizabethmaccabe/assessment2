@@ -3,6 +3,9 @@
     <head>
         <title>Elizabeth MacCabe | Web Designer</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="scripts/main.js"></script>
         <script src="https://use.typekit.net/zgr4shl.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -21,22 +24,39 @@
                     </ul>
                 </header><!-- [end] .nav -->
             </div><!-- [end] .row 1 -->
-            <div class="row">
-                <a href="https://www.behance.net/gallery/44327667/Project-Gutenberg-Redesign-Concept" target="_blank"><img class="tile1 col-4 offset-1" src="img/Portfolio1.png"></a>
-                <a href="https://www.behance.net/gallery/44241229/Brand-Design-Project" target="_blank"><img class="tile2 col-4 offset-2" src="img/Portfolio2.png"></a>
+            <div class="row">  
+                <header class="hamburgerMenu">
+                    <p>PORTFOLIO</p>
+                    <button class="hamburger">&#9776;</button>
+                    <button class="cross">&#735;</button>
+                </header>
+                <div class="menu">
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>   
+                        <a href="about.html"><li>ABOUT</li></a>
+                        <a href="portfolio.html"><li>PORTFOLIO</li></a>
+                        <a href="photography.html"><li>PHOTOGRAPHY</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contact.html"><li>CONTACT</li></a>
+                    </ul>
+                </div>
             </div><!-- [end] .row 2 -->
             <div class="row">
-                <a href="https://www.behance.net/gallery/44327667/Project-Gutenberg-Redesign-Concept" target="_blank"><p class="project col-4 offset-1">GUTENBERG.COM REDESIGN</p></a>
-                <a href="https://www.behance.net/gallery/44241229/Brand-Design-Project" target="_blank"><p class="project col-4 offset-2">BRAND DESIGN PROJECT</p></a>
+                <a href="https://www.behance.net/gallery/44327667/Project-Gutenberg-Redesign-Concept" target="_blank">
+                    <img class="tile1 col-4 offset-1" src="img/Portfolio1.png">
+                </a>
+                <a href="https://www.behance.net/gallery/44241229/Brand-Design-Project" target="_blank">
+                    <img class="tile2 col-4 offset-2" src="img/Portfolio2.png">
+                </a>
             </div><!-- [end] .row 3 -->
             <div class="row">
-                <a href="https://www.behance.net/gallery/46752059/Solent-Pizzas-Website" target="_blank"><img class="tile3 col-4 offset-1" src="img/Portfolio3.png"></a>
-                <a href="https://www.behance.net/gallery/47300285/Personal-Interest-Website-Ed-Sheeran" target="_blank"><img class="tile4 col-4 offset-2" src="img/Portfolio4.png"></a>
+                <a href="https://www.behance.net/gallery/46752059/Solent-Pizzas-Website" target="_blank">
+                    <img class="tile3 col-4 offset-1" src="img/Portfolio3.png">
+                </a>
+                <a href="https://www.behance.net/gallery/47300285/Personal-Interest-Website-Ed-Sheeran" target="_blank">
+                    <img class="tile4 col-4 offset-2" src="img/Portfolio4.png">
+                </a>
             </div><!-- [end] .row 4 -->
-            <div class="row">
-                <a href="https://www.behance.net/gallery/46752059/Solent-Pizzas-Website" target="_blank"><p class="project col-4 offset-1">PIZZA DELIVERY PROJECT</p></a>
-                <a href="https://www.behance.net/gallery/47300285/Personal-Interest-Website-Ed-Sheeran" target="_blank"><p class="project col-4 offset-2">PERSONAL INTEREST PROJECT</p></a>
-            </div><!-- [end] .row 5 -->
             <footer class="bottom">
                 <div class="row">
                     <div class="social col-4 offset-4">
@@ -45,7 +65,7 @@
                         <a href="https://www.linkedin.com/in/elizabethmaccabe" target="_blank"><img class="li" src="img/LinkedIn.png"></a>
                         <a href="https://uk.pinterest.com/eamaccabe/" target="_blank"><img class="pi" src="img/Pinterest.png"></a>
                     </div>
-                </div><!-- [end] .row 6 -->
+                </div><!-- [end] .row 5 -->
                 <div class="row">
                     <ul class="sitemap col-6 offset-3">
                         <li><a href="index.html">HOME</a></li>
@@ -55,7 +75,7 @@
                         <li><a href="blog.html">BLOG</a></li>
                         <li><a href="contact.html">CONTACT</a></li>
                     </ul>
-                </div><!-- [end] .row 7 -->
+                </div><!-- [end] .row 6 -->
             </footer><!-- [end] footer -->
         </div><!-- [end] .wrapper -->
     </body>
