@@ -22,7 +22,7 @@ $(function()
     });
 });
 
-//
+//Slider
 jQuery(document).ready(function ($)
 {
 	var slideCount = $('.slider ul li').length;
@@ -64,6 +64,7 @@ jQuery(document).ready(function ($)
 
 });
 
+//Contact Form Validation
 function validate()
 {
     var form = document.querySelector('.contact');

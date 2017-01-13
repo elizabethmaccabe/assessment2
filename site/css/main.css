@@ -8,6 +8,7 @@ body {
   text-align: justify;
   background-color: #525252;
   margin: 0;
+  user-select: none;
   cursor: default; }
 
 .wrapper {

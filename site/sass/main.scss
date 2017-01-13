@@ -21,6 +21,7 @@ body
     text-align: justify;
     background-color: $darkGrey;
     margin: 0;
+    user-select: none;
     cursor: default;
 }
 
