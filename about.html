@@ -3,6 +3,9 @@
     <head>
         <title>Elizabeth MacCabe | Web Designer</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scripts/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="scripts/main.js"></script>
         <script src="https://use.typekit.net/zgr4shl.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -21,15 +24,32 @@
                     </ul>
                 </header><!-- [end] .nav -->
             </div><!-- [end] .row 1 -->
-            <div class="row">
-                <h2 class="title1 col-4 offset-4">About Me</h2>
+            <div class="row">  
+                <header class="hamburgerMenu">
+                    <p>ABOUT</p>
+                    <button class="hamburger">&#9776;</button>
+                    <button class="cross">&#735;</button>
+                </header>
+                <div class="menu">
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>   
+                        <a href="about.html"><li>ABOUT</li></a>
+                        <a href="portfolio.html"><li>PORTFOLIO</li></a>
+                        <a href="photography.html"><li>PHOTOGRAPHY</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contact.html"><li>CONTACT</li></a>
+                    </ul>
+                </div>
             </div><!-- [end] .row 2 -->
             <div class="row">
-                <img class="profile col-4 offset-4" src="img/Profile.jpg">
+                <h2 class="title1 col-8 offset-2">About Me</h2>
             </div><!-- [end] .row 3 -->
             <div class="row">
-                <p class="about col-10 offset-1">I am a Web Design student, based in Southampton, who loves to design and create beautifully responsive websites. When I’m not up to my eyeballs in University work, I enjoy the occasional trip to the pub and the company of my dear friends.<br><br>I love designing websites that are both visually stunning and organised. I also love making my designs a reality through the use of coding skills that I have aquired. From studying Software Developement at college in 2013, to currently studying Web Design and Development at University, I have learned a lot about web design.<br><br>The knowledge I have gained over the past few years is only a tiny sliver of all there is to know about designing and coding websites. I am excited to continue my journey, expand my knowledge and pass on what I learn to others. I aim to create unique websites that stand out and get people talking.</p>
+                <img class="profile col-4 offset-4" src="img/Profile.jpg">
             </div><!-- [end] .row 4 -->
+            <div class="row">
+                <p class="about col-10 offset-1">I am a Web Design student, based in Southampton, who loves to design and create beautifully responsive websites. When I’m not up to my eyeballs in University work, I enjoy the occasional trip to the pub and the company of my dear friends.<br><br>I love designing websites that are both visually stunning and organised. I also love making my designs a reality through the use of coding skills that I have aquired. From studying Software Developement at college in 2013, to currently studying Web Design and Development at University, I have learned a lot about web design.<br><br>The knowledge I have gained over the past few years is only a tiny sliver of all there is to know about designing and coding websites. I am excited to continue my journey, expand my knowledge and pass on what I learn to others. I aim to create unique websites that stand out and get people talking.</p>
+            </div><!-- [end] .row 5 -->
             <footer class="bottom">
                 <div class="row">
                     <div class="social col-4 offset-4">
@@ -38,7 +58,7 @@
                         <a href="https://www.linkedin.com/in/elizabethmaccabe" target="_blank"><img class="li" src="img/LinkedIn.png"></a>
                         <a href="https://uk.pinterest.com/eamaccabe/" target="_blank"><img class="pi" src="img/Pinterest.png"></a>
                     </div>
-                </div><!-- [end] .row 5 -->
+                </div><!-- [end] .row 6 -->
                 <div class="row">
                     <ul class="sitemap col-6 offset-3">
                         <li><a href="index.html">HOME</a></li>
@@ -48,7 +68,7 @@
                         <li><a href="blog.html">BLOG</a></li>
                         <li><a href="contact.html">CONTACT</a></li>
                     </ul>
-                </div><!-- [end] .row 6 -->
+                </div><!-- [end] .row 7 -->
             </footer><!-- [end] footer -->
        </div><!-- [end] .wrapper -->
     </body>
