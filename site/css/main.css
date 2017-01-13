@@ -202,7 +202,6 @@ h3 {
     margin: 0;
     padding: 0; }
     .menu ul li {
-      color: #ffffff;
       display: block;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -215,6 +214,18 @@ h3 {
         padding-bottom: 20px; }
       .menu ul li:active {
         color: #999999; }
+      .menu ul li a {
+        color: #FFFFFF; }
+        .menu ul li a:hover {
+          color: #FF7D00; }
+        .menu ul li a:active {
+          color: #999999; }
+      .menu ul li .current {
+        color: #FF7D00; }
+        .menu ul li .current:hover {
+          color: #FFFFFF; }
+        .menu ul li .current:active {
+          color: #999999; }
 
 .name {
   font-family: "spumante",sans-serif;
