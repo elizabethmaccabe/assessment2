@@ -8,7 +8,6 @@ body {
   text-align: justify;
   background-color: #525252;
   margin: 0;
-  user-select: none;
   cursor: default; }
 
 .wrapper {
@@ -74,7 +73,7 @@ col-5 {
   width: 83.33%; }
 
 .col-11 {
-  width: 91.63; }
+  width: 91.63%; }
 
 .col-12 {
   width: 100%; }
