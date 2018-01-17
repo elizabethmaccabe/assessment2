@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500,600');
+
 //Colour Variables
 $white: #FFFFFF;
 $black: #000000;
@@ -15,7 +17,7 @@ $lightGrey: #CCCCCC;
 
 body
 {
-    font-family: "proxima-nova", serif;
+    font-family: "Montserrat", serif;
     font-weight: 100;
     font-size: 20px;
     text-align: justify;
@@ -92,7 +94,7 @@ a
 
 p
 {
-    font-family: "proxima nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     color: $white;
     text-align: justify;
@@ -118,9 +120,9 @@ h3
     ul
     {
         list-style-type: none;
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-align: center;
-        margin-top: 3%;
+        margin-top: 3.5%;
     }
     
     li
@@ -183,7 +185,7 @@ h3
     
     p
     {
-        font-family: "Proxima Nova", sans-serif;
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         color: $orange;
         padding-top: 25px;
@@ -329,7 +331,7 @@ h3
 
 .tagline
 {
-    font-family: "proxima-nova",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 1.5em;
     font-weight: 400;
     color: $white;
@@ -487,7 +489,7 @@ h3
         margin-top: -5%;
         font-size: 0.8em;
         color: $lightGrey;
-        width: 13%;
+        width: 15%;
         border-bottom: solid 1px $grey;
     }
     
@@ -496,7 +498,7 @@ h3
         margin-top: -5%;
         font-size: 0.8em;
         color: $lightGrey;
-        width: 13.5%;
+        width: 15.5%;
         border-bottom: solid 1px $grey;
     }
 }
@@ -527,7 +529,7 @@ form
     
     label
     {
-        font-family: "proxima nova", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 1.1em;
         font-weight: 400;
         color: $white;
@@ -545,7 +547,7 @@ form
             background-color: $lightGrey;
             border: none;
             height: 40px;
-            font-family: "proxima nova", sans-serif;
+            font-family: "Montserrat", sans-serif;
             font-weight: 100;
             font-size: 1em;
             color: $black;
@@ -559,7 +561,7 @@ form
             background-color: $lightGrey;
             border: none;
             height: 200px;
-            font-family: "proxima nova", sans-serif;
+            font-family: "Montserrat", sans-serif;
             font-weight: 100;
             font-size: 1em;
             resize: vertical;
@@ -575,7 +577,7 @@ form
             background-color: $orange;
             border: none;
             height: 60px;
-            font-family: "proxima nova", sans-serif;
+            font-family: "Montserrat", sans-serif;
             font-weight: 500;
             font-size: 1.6em;
             color: $white;
@@ -658,7 +660,7 @@ form
         li
         {
             display: inline;
-            padding-left: 3%;
+            padding-left: 6%;
         }
 
         a

@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,500,600");
 * {
   box-sizing: border-box; }
 
 body {
-  font-family: "proxima-nova", serif;
+  font-family: "Montserrat", serif;
   font-weight: 100;
   font-size: 20px;
   text-align: justify;
@@ -86,7 +87,7 @@ a {
     color: #FFFFFF; }
 
 p {
-  font-family: "proxima nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   color: #FFFFFF;
   text-align: justify; }
@@ -105,9 +106,9 @@ h3 {
   background-color: #000000; }
   .nav ul {
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
-    margin-top: 3%; }
+    margin-top: 3.5%; }
   .nav li {
     display: inline;
     padding-right: 1.5%; }
@@ -149,7 +150,7 @@ h3 {
   margin-top: -30px;
   display: none; }
   .hamburgerMenu p {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     color: #FF7D00;
     padding-top: 25px;
@@ -239,7 +240,7 @@ h3 {
   margin-top: 7%; }
 
 .tagline {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-size: 1.5em;
   font-weight: 400;
   color: #FFFFFF;
@@ -346,13 +347,13 @@ h3 {
     margin-top: -5%;
     font-size: 0.8em;
     color: #CCCCCC;
-    width: 13%;
+    width: 15%;
     border-bottom: solid 1px #999999; }
   [class*='blog'] .date2 {
     margin-top: -5%;
     font-size: 0.8em;
     color: #CCCCCC;
-    width: 13.5%;
+    width: 15.5%;
     border-bottom: solid 1px #999999; }
 
 .blog2 {
@@ -373,7 +374,7 @@ form p {
   font-size: 1.2em;
   margin-top: 10%; }
 form label {
-  font-family: "proxima nova", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.1em;
   font-weight: 400;
   color: #FFFFFF;
@@ -386,7 +387,7 @@ form fieldset {
     background-color: #CCCCCC;
     border: none;
     height: 40px;
-    font-family: "proxima nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 1em;
     color: #000000;
@@ -397,7 +398,7 @@ form fieldset {
     background-color: #CCCCCC;
     border: none;
     height: 200px;
-    font-family: "proxima nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 1em;
     resize: vertical;
@@ -410,7 +411,7 @@ form fieldset {
     background-color: #FF7D00;
     border: none;
     height: 60px;
-    font-family: "proxima nova", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 1.6em;
     color: #FFFFFF;
@@ -452,7 +453,7 @@ form fieldset {
     margin-top: 3%; }
     .bottom .sitemap li {
       display: inline;
-      padding-left: 3%; }
+      padding-left: 6%; }
     .bottom .sitemap a {
       color: #FFFFFF;
       font-weight: 100; }
